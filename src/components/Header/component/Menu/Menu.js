@@ -1,6 +1,7 @@
 import React, {Component} from 'react';
 import Title_image from './Title.png'
-import './Menu.css'
+import './Menu.css';
+import AnchorLink from 'react-anchor-link-smooth-scroll';
 
 class Menu extends Component{
   render(){
@@ -12,12 +13,12 @@ class Menu extends Component{
             <table className="nav-table">
               <tbody>
                 <tr className="left-side">
-                  <td>僕について</td>
-                  <td>連絡先</td>
+                  <td><AnchorLink className="Anchor" href="#About">僕について</AnchorLink></td>
+                  <td><AnchorLink className="Anchor" href="#Contact">連絡先</AnchorLink></td>
                 </tr>
                 <tr className="right-side">
-                  <td>制作物</td>
-                  <td>ブログ</td>
+                  <td><AnchorLink className="Anchor" href="#Products">制作物</AnchorLink></td>
+                  <td><AnchorLink className="Anchor" href="#Blog">ブログ</AnchorLink></td>
                 </tr>
               </tbody>
             </table>
