@@ -1,7 +1,10 @@
 .Footer {
-  height: 150px;
+  height: 130px;
   color: #333;
   font-weight: 300;
-  letter-spacing: 5px;
-  padding-top: 60px;
+  letter-spacing: 2px;
+  padding-top: 90px;
+}
+.Footer span {
+  letter-spacing: normal !important;
 }
