@@ -13,7 +13,7 @@ import Other from './Image/Other.jpg';
 class Products extends Component{
   render(){
     return(
-      <div className="Products">
+      <div id="Products" className="Products">
         <h3 className="product-title">制作物</h3>
         <Item image={Oreo} title={'オレオメーカー'} detail="デザイン・開発"/>
         <Item image={Remind_kun} title={'リマインドくん'} detail="bot開発"/>

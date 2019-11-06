@@ -8,7 +8,7 @@ import GitHub from './Logo/GitHub.png';
 class Contact extends Component{
   render(){
     return(
-      <div className="Contact">
+      <div id="Contact" className="Contact">
         <h3 className="Contact-title">連絡先</h3>
         <div className="Contact-logos">
           <a href="https://twitter.com/ntenten_Q"><div style={{backgroundImage: `url(${Twitter})`}} className="lynk-logo" /></a>
