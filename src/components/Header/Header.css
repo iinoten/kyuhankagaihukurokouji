@@ -1,0 +1,6 @@
+#Selfie {
+  height: calc(100vw*0.45)px;
+  width: 100%;
+  background-image: url('./Selfie.jpg');
+  background-size: contain
+}
