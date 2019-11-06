@@ -20,3 +20,9 @@
 .App-link {
   color: #09d3ac;
 }
+
+hr {
+  width: 30vw;
+  max-width: 100px;
+  border-top: 2px dotted #8c8b8b;
+}
